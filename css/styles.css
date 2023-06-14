@@ -1,0 +1,108 @@
+/* common styles */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:#2E2F42;
+
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* Main */
+.page {}
+/* Header */
+.haeder {}
+
+.header-nav {}
+
+.header-logo {
+font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-color{
+    color: #4D5AE5;
+}
+
+.header-list {}
+
+.haeder-item {}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address {}
+
+.header-networks {}
+
+.header-networks-item {}
+
+.header-networks-link {
+    font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* Hero section */
+.hero-section {
+        background-color: #2E2F42;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+}
+/* Benefits section */
+.benefits-title {}
+
+.benfits-list {}
+
+.benefits-item {}
+
+.benefits-item-title {}
+
+.benefits-item-text {}
+/* Work section */
+.work-section {}
+
+.work-title {}
+
+.work-list {}
+
+.work-item {}
+
+.work-img {}
