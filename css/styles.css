@@ -63,8 +63,8 @@ color:var(--bg-cl-navyblue);
 .header-link {
 }
 
-.header-link .link:hover
-.header-link .link:focus {
+.header-link:hover
+.header-link:focus {
 color:#404BBF;
 }
 
