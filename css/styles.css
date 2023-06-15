@@ -228,8 +228,7 @@ color: #F4F4FD;
     background: #F4F4FD;
 }
 .hero-button-portfol{
-        font-style: normal;
-        font-weight: 500;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         display: flex;
@@ -240,7 +239,6 @@ color: #F4F4FD;
 }
 
 .fotos-title {
-        font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -249,7 +247,6 @@ color: #F4F4FD;
 }
 
 .fotos-text {
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
