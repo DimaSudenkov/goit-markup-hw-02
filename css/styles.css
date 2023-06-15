@@ -10,7 +10,7 @@
 /* Common styles */
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
@@ -19,7 +19,7 @@ ul,ol{
     list-style: none;
 }
 
-a{
+.linl{
     text-decoration: none;
 }
 
@@ -33,14 +33,16 @@ a{
 
 .header-nav {}
 
-.header-logo {
-font-family: 'Raleway';
+.link .header-logo {
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: var(--cl-iris);
+text-decoration: none;
 }
 
 .header-logo-color {
