@@ -1,4 +1,5 @@
-/* common styles */
+/* Common styles */
+
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -14,8 +15,11 @@ a{
 }
 
 /* Main */
+
 .page {}
+
 /* Header */
+
 .haeder {}
 
 .header-nav {}
@@ -43,6 +47,12 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.header-link:hover
+.header-link:focus {
+color:#404BBF;
 }
 
 .header-address {}
@@ -59,7 +69,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+.header-networks-link:hover
+.header-networks-link:focus{
+    color:#404BBF
+}
+
 /* Hero section */
+
 .hero-section {
 background-color: #2E2F42;
 }
@@ -77,27 +94,118 @@ color: #FFFFFF;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
 }
+.hero-button:hover
+.hero-button:focus{
+    color: #404BBF;
+}
+
 /* Benefits section */
+
 .benefits-title {}
 
 .benfits-list {}
 
 .benefits-item {}
 
-.benefits-item-title {}
+.benefits-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.benefits-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
-.benefits-item-text {}
 /* Work section */
+
 .work-section {}
 
-.work-title {}
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+align-items: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
 
 .work-list {}
 
 .work-item {}
 
 .work-img {}
+
+/* Team section */
+
+.team-section {
+background-color: #F4F4FD;
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+align-items: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+align-items: center;
+letter-spacing: 0.02em;
+}
+
+.team-profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* Footer section */
+
+.footer-section {
+background-color: #2E2F42;
+}
+
+.footer-logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+
+.footer-logo-color{
+color: #4D5AE5;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
