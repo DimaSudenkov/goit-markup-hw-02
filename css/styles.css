@@ -1,4 +1,4 @@
-:root{
+:root {
     --cl-iris: #4D5AE5;
     --cl-osean: #404BBF;
     --cl-slate:#434455;
@@ -19,7 +19,7 @@ ul,ol{
     list-style: none;
 }
 
-.linl{
+.link{
     text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ ul,ol{
 
 .header-nav {}
 
-.link .header-logo {
+.header-logo {
 font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -42,7 +42,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--cl-iris);
-text-decoration: none;
 }
 
 .header-logo-color {
@@ -66,7 +65,8 @@ color: #2E2F42;
 color:#404BBF;
 }
 
-.header-address {}
+.header-address {
+    font-style:normal}
 
 .header-networks {}
 
