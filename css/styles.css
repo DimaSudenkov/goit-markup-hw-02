@@ -61,6 +61,7 @@ color:var(--bg-cl-navyblue);
 .haeder-item {}
 
 .header-link {
+    color: var(--bg-cl-navyblue);
 }
 
 .header-link:hover
@@ -122,7 +123,7 @@ cursor:pointer;
 /* Benefits section */
 
 .benefits-title {
-    color:var(--bg-cl-navyblue)
+    color: var(--bg-cl-navyblue);
 }
 
 .benfits-list {}
