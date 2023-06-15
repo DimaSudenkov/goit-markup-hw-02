@@ -10,8 +10,9 @@
 /* Common styles */
 
 body{
-    font-family: Raleway, Roboto, sans-serif;
-    color:#2E2F42;
+    font-family: Roboto, sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
 }
 
 ul,ol{
