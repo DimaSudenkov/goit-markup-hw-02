@@ -53,16 +53,22 @@ body{
     letter-spacing: 0.02em;
     color: var(--bg-cl-navyblue);}
 
+    .header-list .header-link:hover,
+        .header-list .header-link:focus{
+color: #404BBF;
+    }
+
 .haeder-item {
     color: var(--bg-cl-navyblue);
 }
 /* color: var(--bg-cl-navyblue); */
-.header-link {}
-
-.header-link:hover
-.header-link:focus {
-color:#404BBF;
-}
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
 
 .header-address {
     font-style:normal}
@@ -80,8 +86,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.header-networks-link:hover
-.header-networks-link:focus{
+.header-networks .header-networks-link:hover,
+.header-networks .header-networks-link:focus{
     color:#404BBF
 }
 
@@ -231,8 +237,6 @@ color: #F4F4FD;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
         color: #4D5AE5;
