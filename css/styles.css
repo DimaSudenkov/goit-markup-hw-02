@@ -181,11 +181,12 @@ color: var(--bg-cl-navyblue);
 background-color: #FFFFFF;
 }
 
-.team-list {
-    background-color: #FFFFFF;
+.team-list {;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-name {
 font-weight: 500;
@@ -242,6 +243,7 @@ color: #F4F4FD;
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background-color: var(--bg-cl-cloud);
+        cursor: pointer;
 }
 .list .hero-button-portfol:hover,
 .list .hero-button-portfol:focus{
